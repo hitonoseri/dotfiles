@@ -1,11 +1,5 @@
   URxvt*background: #141414
-  #Urxvt*background: #888888	
-  #Urxvt*foreground: #111111
   URxvt*foreground: #f8f8f8
-  ## transparent
-  #URxvt*inheritPixmap: true
-  #URxvt*shading: 80
-  #urxvt*transparent: true
   URxvt*font:-misc-fixed-medium-r-normal-*-*-130-*-*-c-*-koi8-r
   URxvt*scrollBar_right: False
   URxvt*scrollBar:False
