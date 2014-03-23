@@ -1,0 +1,31 @@
+  URxvt*background: #141414
+  #Urxvt*background: #888888	
+  #Urxvt*foreground: #111111
+  URxvt*foreground: #f8f8f8
+  ## transparent
+  #URxvt*inheritPixmap: true
+  #URxvt*shading: 80
+  #urxvt*transparent: true
+  URxvt*font:-misc-fixed-medium-r-normal-*-*-130-*-*-c-*-koi8-r
+  URxvt*scrollBar_right: False
+  URxvt*scrollBar:False
+  URxvt*saveLines: 5000000000
+  URxvt*color0:  #000000
+  URxvt*color1:  #aa0000
+  URxvt*color2:  #00aa00
+  URxvt*color3:  #aa5500
+  URxvt*color4:  #0000aa
+  URxvt*color5:  #aa00aa
+  URxvt*color6:  #00aaaa
+  URxvt*color7:  #aaaaaa
+  URxvt*color8:  #555555
+  URxvt*color9:  #ff5555
+  URxvt*color10: #55ff55
+  URxvt*color11: #ffff55
+  URxvt*color12: #5555ff
+  URxvt*color13: #ff55ff
+  URxvt*color14: #55ffff
+  URxvt*color15: #ffffff
+  XTerm*background: Black
+  XTerm*foreground: White
+
