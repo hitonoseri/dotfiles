@@ -7,6 +7,16 @@
 
 source ~/.mutt/creds  #credentials
 
+#   SETTINGS FOR GMAIL 
+#   set realname = "<realname>"
+#   set imap_user = "<user@gmail.com>"
+#   set imap_pass = "<pass>"
+#   set from  = "<name>"
+#   set smtp_url = "smtp://user@smtp.gmail.com:587/"
+#   set smtp_pass = "<pass>"
+#   set folder = "imaps://imap.gmail.com:993"
+
+mailboxes =INBOX 
 set timeout = 15
 set mail_check = 10
 set delete
@@ -24,7 +34,8 @@ set sort = 'threads'
 auto_view text/html
 
 
-# ------------------- BASIC COLORS -------------------------
+# *******************  BASIC COLORS *************************
+
 color normal brightyellow default
 color error red default
 color tilde black default
@@ -73,7 +84,7 @@ color index green black "~N~v~(~F)" # collapsed thread with unread parent, no un
 color index cyan black "~v~(~p)" # collapsed thread with unread parent, no unread inside, some to me directly
 color index yellow red "~v~(~D)" # thread with deleted (doesn't differentiate between all or partial)
 
-#     MESSAGE HEADERS 
+#    MESSAGE HEADERS
 
 color hdrdefault brightgreen default
 color header brightyellow default "^(From)"
